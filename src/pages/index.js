@@ -20,6 +20,8 @@ const IndexPage = () => (
       <input type="hidden" name="bot-field"/>
       <input type="hidden" name="form-name" value="contact"/>
       <input name="name" placeholder="Your Name" type="text"/>
+      <input name="email" placeholder="name@name.com" type="email"/>
+      <textarea name="message" id=""></textarea>
       <button>Send</button>
     </form>
     <Link to="/page-2/">Go to page 2</Link>
